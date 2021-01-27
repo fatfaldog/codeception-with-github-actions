@@ -1,4 +1,5 @@
-# codeception-with-github-actions
-## Introduction
-This repo is just a sample to run codeception test cases with GitHub actions
+# provocateur-tests
 
+Сервер и ветка для тестирования настраиваются в файле `.env.override`.
+
+Значения по умолчанию заданы в файле `.env`

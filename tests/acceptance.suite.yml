@@ -1,7 +1,6 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        #- PhpBrowser:
         - \Helper\AizelDevWebDriver:
             url: '%TEST_HOST%'
             branch: '%TEST_BRANCH%'
@@ -13,3 +12,10 @@ modules:
                     args: ["--headless", "--disable-gpu"]
 
         - \Helper\Acceptance
+env:
+    firefox:
+         modules:
+            config:
+                WebDriver:
+                    browser: firefox
+    chrome:
