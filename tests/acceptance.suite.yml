@@ -3,7 +3,7 @@ modules:
     enabled:
         #- PhpBrowser:
         - \Helper\AizelDevWebDriver:
-            url: 'https://agentprovocateur.ru/'
+            url: 'https://www.agentprovocateur.ru/'
             browser: chrome
             port: 9515
             window_size: 'false'
