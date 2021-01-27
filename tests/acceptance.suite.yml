@@ -3,7 +3,7 @@ modules:
     enabled:
         #- PhpBrowser:
         - WebDriver:
-            url: 'https:// agent provocateur.ru/'
+            url: 'https://agentprovocateur.ru/'
             browser: chrome
             port: 9515
             window_size: 'false'
