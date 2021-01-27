@@ -8,7 +8,6 @@ modules:
             window_size: 1920x1080
             browser: chrome
             port: 9515
-            window_size: 'false'
             capabilities:
                 goog:chromeOptions:
                     args: ["--headless", "--disable-gpu"]
