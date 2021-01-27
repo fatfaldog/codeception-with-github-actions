@@ -2,7 +2,7 @@ actor: AcceptanceTester
 modules:
     enabled:
         #- PhpBrowser:
-        - WebDriver:
+        - \Helper\AizelDevWebDriver:
             url: 'https://agentprovocateur.ru/'
             browser: chrome
             port: 9515
@@ -10,5 +10,5 @@ modules:
             capabilities:
                 goog:chromeOptions:
                     args: ["--headless", "--disable-gpu"]
-                   
-        - \Helper\Acceptance    
+
+        - \Helper\Acceptance
